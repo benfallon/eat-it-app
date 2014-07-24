@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eat It!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_cookie">CookieActivity</string>
+    
+    <string name="cookieDescription">image of chocolate chip cookie</string>
+    <string name="newCookieButtonDescription">Image button that has picture of cookie and arrow pointing up to grab a new cookie</string>
+    <string name="cookieSheetDescription">image of a cookie sheet with 12 cookies. Image changes to have less cookies as they are eaten.</string>
+    
+</resources>
