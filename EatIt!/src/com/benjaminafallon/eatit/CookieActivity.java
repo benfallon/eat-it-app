@@ -69,12 +69,11 @@ public class CookieActivity extends Activity {
 			     }
 
 			     public void onFinish() {
-			    	 //timerView.setText("It took you: " + millisecondsToSeconds() + " seconds");
+			    	 
 			     }
+			     
 			  }.start();
 				Log.i("cookies", "7");
-
-			  
 
 		}
 		
@@ -134,42 +133,25 @@ public class CookieActivity extends Activity {
 			alertDialog2.setTitle("NEW HIGH SCORE!!!!");
 			EatItPreferences.edit().putFloat("com.benjaminafallon.eatit.highScore", high_score).apply();
 		}
-		
-		//myTimer.onFinish();
-		//timerView.setText(millisUntilFinished);
-		
-		//the following line of code updates the high score if the current high score is beaten
-		//EatItPreferences.edit().putInt("com.benjaminafallon.eatit.highScore", 10).apply();
-		
-		// Setting Dialog Title
-		//alertDialog2.setTitle("Play Again?");
 
 		//Setting Dialog Message
 		alertDialog2.setMessage(" Your Score: " + score + " seconds \n High Score: " + high_score + " seconds");
-
-		// Setting Icon to Dialog
-		//alertDialog2.setIcon(R.drawable.star);
 		
-		// Setting Positive "Yes" Btn
 		alertDialog2.setPositiveButton("Play Again",
 		        new DialogInterface.OnClickListener() {
 		            public void onClick(DialogInterface dialog, int which) {
-		                // Write your code here to execute after dialog
 		            	recreate();
 		            }
 		        });
 		
-		// Setting Negative "NO" Btn
 		alertDialog2.setNegativeButton("Quit",
 		        new DialogInterface.OnClickListener() {
 		            public void onClick(DialogInterface dialog, int which) {
-		                // Write your code here to execute after dialog
 		                dialog.cancel();
 		                finish();
 		            }
 		        });
 
-		// Showing Alert Dialog
 		alertDialog2.show();
 	}
 
