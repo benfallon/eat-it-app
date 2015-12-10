@@ -1,4 +1,6 @@
-eat-it-app
+#Eat It! Android Application
 ==========
 
-Game built to practice Android app development
+See how fast you can eat an entire sheet of chocolate chip cookies by furiously tapping your screen.
+
+**Inspired by Takeru "The Tsunami" Kobayashi, Joey Chestnut, and my late Bichon Frise, William Thaddeus.
